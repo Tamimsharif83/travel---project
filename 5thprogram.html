@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <title>Travel Reservation form</title>
+  <style type="text/css">
+    body{
+      margin:0px;
+      padding:0px;
+      margin-top: 0px;
+    }
+      #section1 h1{
+        background-color: #085252;
+        height:75px;
+        color:#66cfac;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 38px;
+        font-style: oblique;
+        font-weight:lighter;
+        text-shadow: 4px 2px black;
+      
+      }
+      .section2
+      {
+        font-size:medium;
+      }
+      
+      input:hover{
+
+         background-color: #a3fffa;
+      }
+      h1::first-letter{
+        font-size:60px;
+        color:#93eccf;
+      }
+      .second-word{
+        font-size:60px;
+        color:#93eccf;
+      }
+          .third-word{
+        font-size:60px;
+        color:#93eccf;
+      }
+      input::placeholder{
+        color: #044233;
+      }
+     .gradient-style{
+      background-image: linear-gradient(to right,#062219,#06ad76);
+     }
+     #nav-menu{
+     margin-left:auto;
+     background-color: #1b5546;
+     width: 355px;
+     height: 80px;
+     cursor: crosshair;
+     box-sizing: border-box;
+}
+#nav-menu ul{
+   float:right;
+}
+#nav-menu ul li{
+   list-style-type: none;
+   margin: 10px;
+   float:left;
+
+}
+#nav-menu ul li a{
+   text-decoration:none;
+   font-size: 22px;
+   color:#a6d4c7;
+}
+  #nav-menu ul li a:hover{
+    text-decoration:underline;
+  }
+  </style>
+  </head>
+  <body style="background-color:#a4dad7">
+  <form action="https://formspree.io/f/meojrozq" method="POST">
+    <div id="section1">
+      <h1 class="gradient-style">Travel <span class="second-word">R</span>eservation <span class="third-word">F</span>orm</h1>
+    </div>
+    <div id="nav-menu">
+      <ul>
+          <li> <a href="#">Home</a></li>
+         <li> <a href="#">Apply</a></li>
+         <li> <a href="#">Contact</a></li>
+         <li> <a href="#">About</a></li>
+         
+          
+      </ul>
+       </div><br>
+  <h2 class="section2">* denotes mandotory</h2><br>
+  <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/fc/f0/goa.jpg?w=600&h=500&s=1" height="200px" width="200px" align="right">
+   <img src="https://media.assettype.com/outlooktraveller%2F2024-01%2Fa369e7e3-f7c8-4210-ae58-1800ea5cb2ea%2FKolkata1.jpg" height="200px" width="260px" align="right">
+    <img src="https://img.veenaworld.com/wp-content/uploads/2021/04/15-of-The-Best-Places-To-Visit-In-Bangalore.jpeg" height="200px" width="240px" align="right">
+    <img src="https://static.toiimg.com/photo/37706147.cms" height="200px" width="240px" align="right">
+    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/59/23/e8/caption.jpg?w=300&h=300&s=1" height="200px" width="200px" align="right">
+   <img src="https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2023/12/23/d78745e603cd28bcb03d90f73c4d5fed_1000x1000.jpg" height="200px" width="260px" align="right">
+  <div>
+  <label for="name">Full name*:</label><br>
+  <input type="text" id="name" name="name" placeholder="Firstname Lastname" required>
+  </div><br>
+  <div>
+  <label for="email">Email address*:</label><br>
+  <input type="email" id="email" name="email" placeholder="email" required>
+  </div><br>
+  <div>
+  <label for="tour" required>Select Tour Package*:</label><br>
+  <select name="tour">
+  <option value="Bandarban">goa</option>
+  <option value="kalkata">kalkata</option>
+  <option value="Bangalore">Bangalore</option>
+  <option value="chennai">chennai</option>
+  <option value="Khasmir">Khasmir</option>
+  <option value="darjeeling">Darjeeling</option>
+  </select><br><br>
+</div>
+  <div>
+  <label for="ad">Arrival Date*:</label><br>
+  <input type="date" id="ad" name="ad" required>
+  </div><br>
+  <label for="number">Number of persons*:</label><br>
+  <input type="number" id="number" name="number" placeholder="unknown_type" required>
+  </div><br><br>
+  <label for="avail" required>What would you want to avail?*</label><br>
+  <input type="checkbox" value="Bording">Bording
+   <input type="checkbox" value="Fooding">Fooding 
+   <input type="checkbox" value="Sight seeing">Sight seeing 
+   </div><br><BR>
+   <div>
+  <label for="code">Discount Coupon Code:</label><br>
+  <input type="text" id="code" name="code" placeholder="UNKNOWN_TYPE">
+  
+  </div><br>
+   <div>
+  <label for="TERMS" required>Terms and Condition*:</label><br>
+  <input type="radio" value="I agree">I agree
+  <input type="radio" value="I disagree">I disagree
+  
+  </div><br>
+  <div>
+  <input type="Submit" value="Complete Reservation">
+  </div><br>
+
+
+  
+  </form>
+  
+
+  &copy;copyright
+  </body>
+</html>
+
+
+
+
+
+
+
+
